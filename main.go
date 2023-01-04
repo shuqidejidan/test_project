@@ -8,8 +8,8 @@ func main() {
 	//处理路由
 	engine.GET("/", func(context *gin.Context) {
 		//以字符串格式返回
-		context.String(200, "这就是一个普通的字符串----edit哈哈哈哈22222")
+		context.String(200, "这就是一个普通的字符串----edit哈哈哈哈233333333")
 	})
 	//运行服务器,默认监听8080端口
-	engine.Run(":8081")
+	engine.Run(":8082")
 }
