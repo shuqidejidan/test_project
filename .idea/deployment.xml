@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="tencent" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ali">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/test_project" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tencent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/jenkins/jenkins/workspace/test_project" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
