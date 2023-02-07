@@ -1,4 +1,4 @@
-module test_project
+module github.com/shuqidejidan/test_project
 
 go 1.18
 
